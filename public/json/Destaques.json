@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"Serra Gaucha, RS",
+        "price":400,
+        "time":"7 Days / 6 Night",
+        "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+    },
+    {
+        "id":2,
+        "name":"Serra Gaucha, RS",
+        "price":400,
+        "time":"7 Days / 6 Night",
+        "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+    },
+    {
+        "id":3,
+        "name":"Serra Gaucha, RS",
+        "price":400,
+        "time":"7 Days / 6 Night",
+        "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+    },
+    {
+        "id":4,
+        "name":"Serra Gaucha, RS",
+        "price":400,
+        "time":"7 Days / 6 Night",
+        "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+    }
+]

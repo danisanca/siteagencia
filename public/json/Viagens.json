@@ -1,0 +1,38 @@
+[
+        {
+            "id":2,
+            "name":"Serra Gaucha, RS",
+            "textAbout":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
+            "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+        },
+        {
+            "id":3,
+            "name":"Serra Gaucha, RS",
+            "textAbout":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
+            "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+        },
+        {
+            "id":4,
+            "name":"Serra Gaucha, RS",
+            "textAbout":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
+            "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+        },
+        {
+            "id":5,
+            "name":"Serra Gaucha, RS",
+            "textAbout":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
+            "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+        },
+        {
+            "id":6,
+            "name":"Serra Gaucha, RS",
+            "textAbout":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
+            "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+        },
+        {
+            "id":7,
+            "name":"Serra Gaucha, RS",
+            "textAbout":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
+            "image":"https://tools-images.services.cvc.com.br/resize?height=204&quality=80&type=auto&url=https%3A%2F%2Fs3.amazonaws.com%2Fcvc-bancodeimagens%2Fdestinos%2Fgramado-tour-raizes-coloniais-chimarrao-divulgacao-cvc.jpg&width=312"
+        }
+]
