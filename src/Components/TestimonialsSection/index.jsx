@@ -12,7 +12,7 @@ export function Testimonials() {
 
    
     useEffect(()=>{
-        fetch('http://localhost:3000/json/Feedback.json')
+        fetch('https://siteagenciareact.netlify.app/json/Feedback.json')
         .then((response) => response.json())
         .then(setData);
         

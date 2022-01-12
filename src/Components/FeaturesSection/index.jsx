@@ -7,8 +7,7 @@ export function Features(){
     const [data, setData] = useState([])
 
     useEffect(()=>{
-
-       fetch('http://localhost:3000/json/Destaques.json')
+       fetch('https://siteagenciareact.netlify.app/json/Destaques.json')
        .then((response)=>response.json())
        .then(setData)
        

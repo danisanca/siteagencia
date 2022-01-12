@@ -10,7 +10,7 @@ export function Popular() {
     const carousel = useRef(null);
 
     useEffect(()=>{
-        fetch('http://localhost:3000/json/PopularCities.json')
+        fetch('https://siteagenciareact.netlify.app/json/PopularCities.json')
         .then((response) => response.json())
         .then(setData)
 

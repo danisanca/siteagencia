@@ -7,7 +7,6 @@ import { FaBars, FaTimes} from 'react-icons/fa';
 import { RiArrowGoBackFill} from 'react-icons/ri';
 import { useModalContext } from '../../Contexts/ModalContext';
 import axios from 'axios';
-import Password from 'antd/lib/input/Password';
 
 
 export function Header(){
@@ -76,7 +75,7 @@ export function Header(){
             axios.get("http://localhost:8001/auth",axiosConfig)
             .then(response =>{
                 var usuariologged = response.data.usuario.email;
-                    if(usuariologged != undefined){
+                    if(usuariologged !== undefined){
                         usuario.innerHTML = usuariologged;
                        setLogado(true);
                        console.log(usuariologged)

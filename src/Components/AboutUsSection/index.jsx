@@ -8,7 +8,7 @@ export function AboutUS(){
     const [data, setData] = useState([])
     const carousel = useRef(null);
     useEffect(()=>{
-            fetch('http://localhost:3000/json/Viagens.json')
+        fetch('https://siteagenciareact.netlify.app/json/Viagens.json')
             .then((response) => response.json())
             .then(setData)
     },[])
