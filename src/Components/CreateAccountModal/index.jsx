@@ -29,7 +29,7 @@ import { FaTimes} from 'react-icons/fa';
         if(nameIpunt !=='' && emailIpunt !=='' &&passwordIpunt !=='' && repasswordIpunt !=='' ){
             if(passwordIpunt === repasswordIpunt){
                 
-                axios.post("http://localhost:8001/user",{name,email,password}).then(response=>{
+                axios.post("https://servidoragencia.herokuapp.com/user",{name,email,password}).then(response=>{
                     if(response.status === 200){
                         console.log("Conta Criada.");
                         closeModal();

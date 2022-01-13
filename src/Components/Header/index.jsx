@@ -72,7 +72,7 @@ export function Header(){
         const usuario = document.getElementById('usuarioLogado');
 
         if(tokenStorage != null){
-            axios.get("http://localhost:8001/auth",axiosConfig)
+            axios.get("https://servidoragencia.herokuapp.com/auth",axiosConfig)
             .then(response =>{
                 var usuariologged = response.data.usuario.email;
                     if(usuariologged !== undefined){
@@ -119,7 +119,7 @@ export function Header(){
 
         let email = userfield.value;
         let password = passwordfield.value;
-        axios.post("http://localhost:8001/login",{email,password})
+        axios.post("https://servidoragencia.herokuapp.com/login",{email,password})
 
         .then(response =>{
             var token = response.data.Token;
@@ -190,16 +190,16 @@ export function Header(){
                                         <RiArrowGoBackFill onClick={closeLoginMenu}/>
                                     </div>
                                     <div className="logindata">
-                                        <input type="text" name="email" id="user" placeholder="Usuario"/>
-                                        <input type="text" name="password" id="password" placeholder="Senha"/>
+                                        <input type="text" name="email" id="user" placeholder="Usuario" value="teste@teste.com"/>
+                                        <input type="text" name="password" id="password" placeholder="Senha" value="1234"/>
                                     </div>
                                     <div className="btnlogar">
-                                         <button className='btnLogin' onClick={handleLogin}>Logar</button>
+                                         <button className='btnLogin' onClick={handleLogin}>Log-in</button>
                                     </div>
                                 </div>
                                 <div id="userLogedContent">
                                     <div className="boxtext">
-                                        <h4>Logado como <span id="usuarioLogado"></span></h4>
+                                        <h4>Logged in as <span id="usuarioLogado"></span></h4>
                                     </div>
                                     <button className='btnSair' onClick={handleDeslogar}>Sair</button>
                                 </div>
